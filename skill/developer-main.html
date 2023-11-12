@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>DaEun Park</title>
+  </head>
+  <body>
+    <section class="parallax">
+      <img src="assets/images/hill1.png" id="hill1" />
+      <img src="assets/images/hill2.png" id="hill2" />
+      <img src="assets/images/hill3.png" id="hill3" />
+      <img src="assets/images/hill4.png" id="hill4" />
+      <img src="assets/images/hill5.png" id="hill5" />
+      <img src="assets/images/tree.png" id="tree" />
+      <h2 id="text">Web Developer<br>Video Artist</h2>
+      <img src="assets/images/leaf.png" id="leaf" />
+      <img src="assets/images/plant.png" id="plant" />
+    </section>
+
+    <div class="content">
+      <header>
+        <a class="logo" href="../index.html">
+          <img src="assets/images/logo2.png" alt="">
+        </a>
+        <nav class="navigation">
+          <a class="btn" href="#sec1">Web Projects</a>
+          <a class="btn" href="#sec2">Video Projects</a>
+          <a class="btn" href="#sec3">Contact</a>
+        </nav>
+      </header>
+
+      <section class="sec sec1" id="sec1">
+        <h2>Web Projects</h2>
+        <div class="web_container-col">
+          <div class="web_container-row1">
+            <a href="" class="web_img_container">
+              <img src="assets/images/web1.png" alt="" class="web_img web_img1" />
+            </a>
+            <a href="" class="project_img_container">
+              <img src="assets/images/web2.png" alt="" class="web_img web_img2" />
+            </a>
+          </div>
+          <div class="web_container-row2">
+            <a href="" class="project_img_container">
+              <img src="assets/images/web3.png" alt="" class="web_img web_img3"/>
+            </a>
+            <a href="" class="web_img_container">
+              <img src="assets/images/web4.png" alt="" class="web_img web_img4"/>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec2" id="sec2">
+        <h2>Video Project</h2>
+        <div class="video_container">
+          <a href="" class="video_img_container">
+            <img src="assets/images/video1.jpg" alt="" class="video_img video_img1" />
+          </a>
+          <a href="" class="video_img_container">
+            <img src="assets/images/video2.jpg" alt="" class="video_img video_img2" />
+          </a>
+          <a href="" class="video_img_container">
+            <img src="assets/images/video3.jpg" alt="" class="video_img video_img3"/>
+          </a>
+        </div>
+      </section>
+
+      <section class="sec sec3" id="sec3">
+        <h2>Contact</h2>
+        <div class="contact_container">
+          <div class="contact_container-row">
+            <div class="contact_container-col1">
+              <div class="contact-name">Daeun Park</div>
+            </div>
+            <div class="contact_container-col2">
+              <div class="contact-info contact-email">
+                daeun.down.back@gmail.com
+              </div>
+              <div class="contact-info contact-cv">
+                <a href="">click to download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-3d_container">
+          <div class="contact-3d_background">
+            <div class="scene">
+              <div class="cube">
+                <div class="front">
+                  <p>click here to animate</p>
+                </div>
+                <div class="back"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="top"></div>
+                <div class="bottom"></div>
+              </div>
+              <div class="floor"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer"></footer>
+    </div>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <script>
+      var cursor = document.querySelector(".cursor");
+      var cursor2 = document.querySelector(".cursor2");
+      document.addEventListener("mousemove", function (e) {
+        cursor.style.cssText = cursor2.style.cssText =
+          "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      });
+    </script>
+    <script src="assets/JS/script.js"></script>
+  </body>
+</html>

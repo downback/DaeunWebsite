@@ -1,0 +1,159 @@
+/*--------------header animation--------------*/
+
+.header-logo:hover .logo_text{
+    animation: slideUp ease .5s forwards 0.7s;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateX(20px) translateY(-20px);
+        opacity:1;
+    }
+  }
+
+.header-logo:hover .logo_img{
+    animation: logoHover 1s forwards;
+}
+
+@keyframes logoHover {
+    to {
+        transform: scale(1.5) translateX(70px) translateY(10px) rotate(1.5deg);
+    }
+}
+
+.header-logo:hover .logo_circle {
+    animation: circleAnimation 2s forwards;
+}
+
+@keyframes circleAnimation {
+    to {
+        width: 550px;
+        height: 250px;
+        transform: translateX(100px) translateY(50px);
+        opacity: 0.6;
+        filter: blur(10px);
+
+    }
+}
+
+/*--------------background animation--------------*/
+
+.circle {
+    animation: circleBigger 3s forwards 0.2s;
+}
+
+@keyframes circleBigger {
+    to {
+        transform: scaleX(20) scaleY(15);
+    }
+}
+
+/*--------------text animation--------------*/
+
+.text1 {
+    animation: text1Effect 1.5s forwards 1s ;
+}
+
+@keyframes text1Effect {
+    to {
+        transform: skew(0) scale(1);
+        text-shadow: 4px 7px 19px rgba(95, 163, 214);
+    }
+}
+
+.text2 {
+    animation: text2Effect 1.5s forwards 1s ;
+}
+
+@keyframes text2Effect {
+    to {
+        transform: skew(0) scale(1);
+        text-shadow: 
+        1px 0px 1px #ccc, 0px 1px 1px #eee, 
+        2px 1px 1px #ccc, 1px 2px 1px #eee,
+        3px 2px 1px #ccc, 2px 3px 1px #eee,
+        4px 3px 1px #ccc, 3px 4px 1px #eee,
+        5px 4px 1px #ccc, 4px 5px 1px #eee,
+        6px 5px 1px #ccc, 5px 6px 1px #eee,
+        7px 6px 1px #ccc;
+    }
+}
+
+.text3 {
+    animation: text3Effect 1.5s forwards 1s ;
+}
+
+@keyframes text3Effect {
+    to {
+        transform: skew(0) scale(1);
+        text-shadow: 0 2px 1px #747474, 
+    -1px 3px 1px #767676, 
+    -2px 5px 1px #787878, 
+    -3px 7px 1px #7a7a7a,
+    -4px 9px 1px #7f7f7f,
+    -5px 11px 1px #838383,
+    -6px 13px 1px #878787,
+    -7px 15px 1px #8a8a8a, 
+    -8px 17px 1px #8e8e8e,
+    -9px 19px 1px #949494,
+    -10px 21px 1px #989898,
+    -11px 23px 1px #9f9f9f,
+    -12px 25px 1px #a2a2a2, 
+    -13px 27px 1px #a7a7a7
+    }
+}
+
+.text4 {
+    animation: text4Effect 1.5s forwards 0.8s ;
+}
+
+@keyframes text4Effect {
+    to {
+        transform: skew(0) scale(1);
+        text-shadow: 0 0 2px #dfdfdf, 
+        -4px 5px 0 #b8b8b8, 
+        -7px 11px 0 #747474,
+        -12px 17px 0 #343434,
+        -17px 23px 0 #000;
+    }
+}
+
+.text5 {
+    animation: text5Effect 1.5s forwards 0.8s ;
+}
+
+@keyframes text5Effect {
+    to {
+        transform: skew(0) scale(1);
+        text-shadow: 4px 4px 0px #000, 
+        -4px 0 0px #000,
+        7px 4px 0 #fff;
+    }
+}
+
+.text6 {
+    animation: text6Effect 1.5s forwards 0.8s ;
+}
+
+@keyframes text6Effect {
+    to {
+        transform: skew(0) scale(1);
+        text-shadow: 4px 7px 19px rgba(95, 163, 214);
+    }
+}
+
+/*--------------video--------------*/
+
+.videoEffect {
+    animation: videoEffect 2s forwards 2.5s ;
+}
+
+@keyframes videoEffect {
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
+}

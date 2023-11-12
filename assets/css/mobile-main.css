@@ -1,0 +1,9 @@
+/*--------------mobile--------------*/
+
+@media only screen and (max-width: 768px) {
+    .image-area {
+      width: 20rem;
+      left: 0;
+      margin: 35% auto;
+    }
+  }
