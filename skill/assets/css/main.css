@@ -275,9 +275,16 @@ header {
     height: 200px;
     object-fit: cover;
     transition: all 0.5s;
+}
+
+.video_img:hover {
+    transform: scale(.8);
+}
+
+.video_img1, .video_img2, .video_img3 {
     filter: blur(10px);
 }
-  
+
 .blur1{
     animation: blur1 0.5s forwards 0.4s;
   }

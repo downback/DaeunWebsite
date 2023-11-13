@@ -46,7 +46,7 @@ window.addEventListener('scroll', function(){
     const videoImage2 = document.querySelector('.video_img2');
     const videoImage3 = document.querySelector('.video_img3');
     
-    const boxPosition = videoImage1.getBoundingClientRect().top;
+    const boxPosition = videoImage3.getBoundingClientRect().top;
     const screenPosition = window.innerHeight / 1.7;   
     
     if(boxPosition < screenPosition){
@@ -55,12 +55,12 @@ window.addEventListener('scroll', function(){
         videoImage3.classList.add('blur3');
     }else{
         videoImage1.classList.remove('blur1');
-        videoImage2.classList.add('blur2');
-        videoImage3.classList.add('blur3');
+        videoImage2.classList.remove('blur2');
+        videoImage3.classList.remove('blur3');
     }
   });
 
-  var cube = document.querySelector('.cube');
+var cube = document.querySelector('.cube');
 
 cube.addEventListener('click',function(){
   document.body.classList.toggle('turn');
