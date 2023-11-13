@@ -8,12 +8,11 @@ let hill5 = document.getElementById('hill5');
 
 window.addEventListener('scroll', () => {
 
-  
-    let value = window.scrollY;
+   let value = window.scrollY ;
 
     text.style.marginTop = value * 0.2 + 'px';
-    leaf.style.top = value * -5.5 + 'px';
-    hill5.style.left = value * -2.5 + 'px';
+    leaf.style.top = value * -0.5 + 'px';
+    hill5.style.left = value * -1.5 + 'px';
     hill4.style.left = value * 2.5 + 'px';
     hill3.style.left = value * -2.5 + 'px';
     hill2.style.opacity = value * 100;
@@ -53,7 +52,7 @@ window.addEventListener('scroll', function(){
     const videoImage3 = document.querySelector('.video_img3');
     
     const boxPosition = videoImage3.getBoundingClientRect().top;
-    const screenPosition = window.innerHeight / 1.7;   
+    const screenPosition = window.innerHeight / 1.4;   
     
     if(boxPosition < screenPosition){
         videoImage1.classList.add('blur1');
@@ -71,4 +70,3 @@ var cube = document.querySelector('.cube');
 cube.addEventListener('click',function(){
   document.body.classList.toggle('turn');
 });
-
