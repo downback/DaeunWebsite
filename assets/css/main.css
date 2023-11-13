@@ -8,9 +8,6 @@ body {
     height: 10px;
     overflow: hidden;
 }
-.logo_img {
-    transform: rotate(1.5deg);
-}
 
 .logo_text{
     position: absolute;
