@@ -17,6 +17,7 @@ window.addEventListener('scroll', () => {
     hill4.style.left = value * 2.5 + 'px';
     hill3.style.left = value * -2.5 + 'px';
     hill2.style.opacity = value * 100;
+    hill3.style.opacity = value * 100;
 
     
 });

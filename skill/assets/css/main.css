@@ -139,7 +139,8 @@ header {
 }
 
 #hill3 {
-    transform: translateX(800px);
+    transform: translateX(300px);
+    opacity: 0.01;
     transition: all 1s;
 }
 
@@ -221,6 +222,10 @@ header {
     height: 200px;
     object-fit: cover;
     transition: all 0.5s;
+}
+
+.web_img:hover {
+    filter: blur(2px);
 }
 
 .web_img1, .web_img2 {
