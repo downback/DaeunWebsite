@@ -52,7 +52,7 @@ window.addEventListener('scroll', function(){
     const videoImage2 = document.querySelector('.video_img2');
     const videoImage3 = document.querySelector('.video_img3');
     
-    const boxPosition = videoImage3.getBoundingClientRect().top;
+    const boxPosition = videoImage1.getBoundingClientRect().top;
     const screenPosition = window.innerHeight / 1.4;   
     
     if(boxPosition < screenPosition){

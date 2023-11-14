@@ -19,31 +19,48 @@
   }
 
   .hover_container {
-    height: 100vh;
-    overflow: hidden;
+    margin-top: 400px;
+    height: 80vh;
+    overflow: visible;
   }
 
   .hover_boxes {
     flex-direction: column;
-    width: 100vw;
+    justify-content: flex-start;
+    width: 100%;
+    top: 0;
   }
 
   .hover_box-left, .hover_box-right {
+    margin-top: 40px;
     width: 100%;
+    padding: 0;
+    height: 30vh;
+  }
+
+  .card {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px;
   }
 
   .face {
-    width: 60%;
+    width: 100%;
+    margin: 0;
   }
 
   .face1 {
+    transform: translateY(90px);
     animation: cardOpen 2s forwards 1.5s;
   }
 
   @keyframes cardOpen {
     to {
       background: #0f91bd;
-      transform: translateY(90px);
+      transform: translateY(0px);
   }
   }
 
@@ -58,7 +75,7 @@
   }
 
 .video_container {
-  opacity: 1;
+  display: none;
 }
 
 .main-container {
