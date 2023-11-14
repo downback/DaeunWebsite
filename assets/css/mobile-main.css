@@ -1,9 +1,77 @@
 /*--------------mobile--------------*/
 
 @media only screen and (max-width: 768px) {
-    .image-area {
-      width: 20rem;
-      left: 0;
-      margin: 35% auto;
-    }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .header_container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header_container img {
+    width: 65vw;
+    margin: 0.8rem;
+  }
+
+  .hover_container {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .hover_boxes {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .hover_box-left, .hover_box-right {
+    width: 100%;
+  }
+
+  .face {
+    width: 60%;
+  }
+
+  .face1 {
+    animation: cardOpen 2s forwards 1.5s;
+  }
+
+  @keyframes cardOpen {
+    to {
+      background: #0f91bd;
+      transform: translateY(90px);
+  }
+  }
+
+  .line {
+    animation: wideLine 2s forwards 2.5s;
+  }
+
+  @keyframes wideLine {
+    to {
+      width: 150px;
+  }
+  }
+
+.video_container {
+  opacity: 1;
+}
+
+.main-container {
+  display: none;
+  visibility: hidden;
+}
+
+.capyright_text-mobile {
+  display: block;
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
   }
