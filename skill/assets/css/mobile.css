@@ -1,0 +1,138 @@
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+    .logo img {
+      width: 70vw;
+    }
+    .navigation {
+        display: none;
+    }
+    .parallax{
+        height: 90vh; 
+    }
+    #text{
+        width: 70vw;
+        top: 50vh;
+    }
+    #leaf {
+        width: 300%;
+    }
+
+    #plant, #hill5 {
+        width: 200%;
+        bottom: 0;
+    }
+
+    #hill4 {
+        display: none;
+    }
+
+    #hill2, #hill3 {
+        width: 150%;
+        bottom: 0;
+        opacity: 1;
+    }
+
+    #hill3 {
+        transform: translateX(100px);
+    }
+
+    #hill1 {
+        height: 90vh;
+    }
+
+    .sec {
+        height: 150vh;
+        padding: 0;
+    }
+
+    .sec1 h2{
+        padding-top: 5rem;
+    }
+
+    .web_img_container {
+        overflow: visible;
+    }
+
+    .web_img{
+        width: 85vw;
+    }
+
+    .web_container-col {
+        margin-top: 15rem;
+        height: auto;
+    }
+
+    .web_container-row1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .web_container-row1, .web_container-row2 {
+        flex-direction: column;
+        
+    }
+    
+    .video_container {
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem 0;
+        margin-top: -8rem;
+    }
+
+    .video_img_container {
+        overflow: visible;
+        width: 100%;
+    }
+
+    .video_img {
+        width: 85vw;
+    }
+
+    .blur1{
+        animation: blur1 0.5s forwards 0.1s;
+      }
+
+    .blur2{
+      animation: blur2 0.5s forwards 0.2s;
+    }
+
+    .blur4{
+      animation: blur3 0.5s forwards 0.3s;
+    }
+
+    .contact_container {
+        margin-top: 5rem;
+        margin-left: 0;
+    }
+    
+    .contact_container-row {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .contact-name {
+        font-size: 1.2rem;
+    }
+    
+    .contact-intro {
+        font-size: 1rem;
+    }
+
+    .contact_container-col2{
+        margin-left: 0;
+        margin-top: 2rem;
+        font-size: 1rem;
+        align-items: center;
+    }
+
+    .sec3 {
+        height: 90vh;
+    }
+
+    .inbetween2 {
+        display: none;
+    }
+
+  }
+  

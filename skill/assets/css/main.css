@@ -169,8 +169,6 @@ header {
     pointer-events: none;
 }
 
-
-
 .parallax img:first-child {
     top: 0;
 }
@@ -197,9 +195,11 @@ header {
     font-weight: 300;
 }
 
-.footer {
+.inbetween {
     width: 100vw;
     height: 100px;
+    margin: 0;
+    padding: 0;
     background-color: #323232;
 }
 
@@ -374,7 +374,7 @@ header {
 /*------------------------contact------------------------*/
 
 
-.contact_container{
+.contact_container {
     display: flex;
     flex-direction: row;
     justify-content: center;
