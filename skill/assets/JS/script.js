@@ -8,17 +8,18 @@ let hill5 = document.getElementById('hill5');
 
 window.addEventListener('scroll', () => {
 
-   let value = window.scrollY ;
-
-    text.style.marginTop = value * 0.2 + 'px';
-    leaf.style.top = value * -0.5 + 'px';
-    hill5.style.left = value * -1.5 + 'px';
-    hill4.style.left = value * 2.5 + 'px';
-    hill3.style.left = value * -2.5 + 'px';
-    hill2.style.opacity = value * 100;
-    hill3.style.opacity = value * 100;
+   let value = window.scrollY;
 
     
+    leaf.style.top = value * -5.5 + 'px';
+    hill5.style.left = value * -2.5 + 'px';
+    hill4.style.left = value * 2.5 + 'px';
+    hill3.style.left = value * -2.5 + 'px';
+    text.style.marginTop = value * 1.2 + 'px';
+    setTimeout(() => {
+      hill2.style.opacity = value * 100;
+      hill3.style.opacity = value * 100;
+    }, 1000);
 });
 
 window.addEventListener('scroll', function(){
