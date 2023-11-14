@@ -1,9 +1,4 @@
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    cursor: pointer;
-  }
+
   
   .cursor{
     position: fixed;
@@ -16,12 +11,13 @@ body{
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: .1s;
+    z-index: 100;
   }
   
   .cursor2{
     position: fixed;
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     background-color: #c6c6c6;
     border-radius: 50%;
     left: 0;
@@ -29,14 +25,17 @@ body{
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: .15s;
+    z-index: 100;
   }
   
   .content:hover ~ .cursor{
     transform: translate(-50%, -50%) scale(1.5);
     background-color: #c6c6c6;
     opacity: .5;
+    z-index: 100;
   }
   
   .content:hover ~ .cursor2{
     opacity: 0;
+    z-index: 100;
   }

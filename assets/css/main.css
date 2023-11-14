@@ -362,11 +362,12 @@ body {
     left: 0;
     top:0;
     z-index: -20;
+    width: 100vw;
     height: 100vh;
+    object-fit: cover;
     background-size: cover;
     opacity: 0;
     filter: blur(10px);
-    height: 100vh;
 }
 
 .capyright_text {

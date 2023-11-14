@@ -28,29 +28,34 @@
 
   #slideshow {
     overflow: hidden;
-    height: 490px;
-    width: 728px;
+    height: 350px;
+    width: 550px;
     margin: 0 auto;
+    box-shadow: 7px 7px 37px rgba(0,0,0,0.54);
   }
   
   .slide-wrapper {
-    width: 2184px;
+    width: 1650px;
     animation: slide 12s ease infinite;
   }
   
   .slide img {
     float: left;
-    height: 510px;
-    width: 728px;
+    height: 350px;
+    width: 550px;
     object-fit: fill;
   }
   
   @keyframes slide {
     20% {margin-left: 0px;}
-    30% {margin-left: -728px;}
-    50% {margin-left: -728px;}
-    60% {margin-left: -1456px;}
-    70% {margin-left: -1456px;}
+    30% {margin-left: -550px;}
+    50% {margin-left: -550px;}
+    60% {margin-left: -1100px;}
+    70% {margin-left: -1100px;}
+  }
+
+  .description_container {
+    text-align: center;
   }
   
   .description-title {
@@ -64,4 +69,56 @@
     color: white;
     font-size: 1rem;
     margin-bottom: 0.5rem;
+  }
+
+  .description-link {
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+
+  .description-link:hover {
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #slideshow {
+      height: 150px;
+      width: 250px;
+
+    }
+    
+    .slide-wrapper {
+      width: 750px;
+    }
+    
+    .slide img {
+      height: 150px;
+      width: 250px;
+    }
+
+    @keyframes slide {
+      20% {margin-left: 0px;}
+      30% {margin-left: -250px;}
+      50% {margin-left: -250px;}
+      60% {margin-left: -500px;}
+      70% {margin-left: -500px;}
+    }
+
+    .description-title {
+      margin-top: 2.5rem;
+    }
+
+    .description-content {
+      text-align: center;
+      width: 75vw;
+      margin: 1rem;
+    }
   }
