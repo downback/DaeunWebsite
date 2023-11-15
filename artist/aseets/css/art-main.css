@@ -19,6 +19,7 @@
     margin: 1rem;
     top: 0;
     position: fixed;
+    z-index: 10;
 }
 
 .navigation {
@@ -119,9 +120,10 @@
 
     .image_title {
         position: absolute;
-        left: -20px;
+        left: -30px;
         top: -20px;
         font-size: 1rem;
+        width: 70vw;
     }
 
     .image_caption {

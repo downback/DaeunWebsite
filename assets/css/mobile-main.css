@@ -19,7 +19,6 @@
   }
 
   .hover_container {
-    margin-top: 400px;
     height: 80vh;
     overflow: visible;
   }
@@ -32,10 +31,13 @@
   }
 
   .hover_box-left, .hover_box-right {
-    margin-top: 40px;
     width: 100%;
     padding: 0;
-    height: 30vh;
+    height: 40vh;
+  }
+
+  .hover_box-left {
+    margin-top: 10%;
   }
 
   .card {
@@ -84,11 +86,8 @@
 }
 
 .capyright_text-mobile {
-  display: block;
-  position: absolute;
-  right: 3px;
-  bottom: 3px;
-  color: rgba(255, 255, 255, 0.5);
+display: none;
 }
+
 
   }
