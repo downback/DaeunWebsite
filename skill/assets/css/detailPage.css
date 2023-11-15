@@ -59,16 +59,18 @@
   }
   
   .description-title {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.3rem;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .description-content {
-    color: white;
+    color: rgba(255, 255, 255, 0.592);
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    text-align: center;
+    line-height: 1.5rem;
   }
 
   .description-link {
