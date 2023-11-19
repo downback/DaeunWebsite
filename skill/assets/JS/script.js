@@ -11,10 +11,10 @@ window.addEventListener('scroll', () => {
    let value = window.scrollY;
 
     
-    leaf.style.top = value * -3.5 + 'px';
-    hill5.style.left = value * -2.5 + 'px';
-    hill4.style.left = value * 2.5 + 'px';
-    hill3.style.left = value * -2.5 + 'px';
+    leaf.style.top = value * -0.5 + 'px';
+    hill5.style.left = value * -1.5 + 'px';
+    hill4.style.left = value * 1.5 + 'px';
+    hill3.style.left = value * -1.5 + 'px';
     text.style.marginTop = value * 0.2 + 'px';
     setTimeout(() => {
       hill2.style.opacity = value * 100;
