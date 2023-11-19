@@ -90,15 +90,15 @@
     }
 
     .blur1{
-        animation: blur1 0.5s forwards 0.1s;
+        animation: blur1 0.2s forwards ;
       }
 
     .blur2{
-      animation: blur2 0.5s forwards 0.2s;
+      animation: blur2 0.6s forwards 0.3s;
     }
 
     .blur4{
-      animation: blur3 0.5s forwards 0.3s;
+      animation: blur3 0.8s forwards 0.6s;
     }
 
     .contact_container {

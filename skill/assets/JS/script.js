@@ -48,11 +48,12 @@ window.addEventListener('scroll', function(){
 
   window.addEventListener('scroll', function(){
     
+    const videoContainer = document.querySelector('#sec2');
     const videoImage1 = document.querySelector('.video_img1');
     const videoImage2 = document.querySelector('.video_img2');
     const videoImage3 = document.querySelector('.video_img3');
     
-    const boxPosition = videoImage1.getBoundingClientRect().top;
+    const boxPosition = videoContainer.getBoundingClientRect().top;
     const screenPosition = window.innerHeight / 1.4;   
     
     if(boxPosition < screenPosition){
