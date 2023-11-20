@@ -137,7 +137,7 @@ body {
     opacity: 1;
   }
   
-  .content h3 {
+  .before_text, .after_text {
     text-align: center;
     color: white;
   }
@@ -166,6 +166,7 @@ body {
   }
 
   .after_text {
+    text-decoration: none;
     display: none;
   }
 
